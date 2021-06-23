@@ -1,0 +1,27 @@
+.year{
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+}
+.day{
+    flex-direction: row;
+    margin: 50px;
+    align-content: center;
+    padding-left: 50px;
+}
+.month{
+    flex-direction: row;
+    margin: 50px;
+    align-content: center;
+}
+.radio{
+    margin: 50px
+}
+.submit{
+    margin: 10%;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+}
