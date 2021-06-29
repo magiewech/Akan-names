@@ -20,22 +20,24 @@ function submit(event){
     var female = document.getElementById("female").checked
     var male = document.getElementById("male").checked
     var message = "Your Akan name is "
+    var message2 = " because you were born on "
 
 
     if(female){
-        
-         alert(message + femaleAkans[getWeekDay()])
+
+         alert(message + femaleAkans[getWeekDay()] + message2 + getWeekDay())
     } else if(male){
-        alert(message + maleAkans[getWeekDay()])
+        alert(message + maleAkans[getWeekDay()] + message2 + getWeekDay())
     } else{
         alert("choose a valid gender")
     }
-     function getWeekDay()
-   { var birthDay =new Date(year,month,day);
+
+     function getWeekDay(){
+    var birthDay =new Date(year,month,day);
       console.log(birthDay)
     var dayOfWeek =birthDay.getDay();
     return dayOfWeek
-   }
+    }
 }
 
 
