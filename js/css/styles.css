@@ -1,0 +1,38 @@
+.year{
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    border-radius: ;
+}
+.day{
+    flex-direction: row;
+    margin: 50px;
+    align-content: center;
+    padding-left: 50px;
+}
+.month{
+    flex-direction: row;
+    margin: 50px;
+    align-content: center;
+}
+.radio{
+    margin: 50px
+}
+.submit{
+    margin: 10%;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+}
+.intro{
+    text-align: center;
+    color: chocolate;
+    font-style: oblique;
+}
+p.intro{
+    text-align: center;
+    color: coral;
+    font-style: italic;
+}
